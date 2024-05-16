@@ -1,0 +1,72 @@
+body {
+    background-color: #1a1818;
+}
+
+header {
+    width: 100%;
+    background-color: #3b3939;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.browser__heading {
+    color: white;
+    font-size: 3em;
+}
+
+.browser {
+    width: 20%;
+    padding: 8px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.items {
+    margin-top: 16px;
+    background-color: #3b3939;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    
+}
+
+
+
+.categories {
+    padding: 16px;
+    margin-right: 20%;
+}
+
+.categories__heading {
+    color: white;
+}
+
+.categories__list {
+    color: white;
+    list-style: none;
+}
+
+.smartphones {
+    padding: 16px;
+    flex-grow: 1;
+    
+}
+
+.smartphone {
+    display: flex;
+    color: white;
+}
+
+.smartphone__img {
+    height: 200px;
+    width: 200px;
+    padding: 16px;
+}
+
+.price {
+    font-size: 2em;
+}
